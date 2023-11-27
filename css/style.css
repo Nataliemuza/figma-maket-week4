@@ -1,0 +1,194 @@
+@font-face {
+    src: url(../assets/fonts/Inter/static/Inter-Bold.ttf);
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.header-container {
+    background-image: url('../assets/images/image\ 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.second-screen-container {
+    background-image: url('../assets/images/kim-daniels-OrkEasJeY74-unsplash\ 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.reviews {
+    background-image: url('../assets/images/alex-lvrs-aX_ljOOyWJY-unsplash\ 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.title {
+    color:#000000;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.review-card {
+    width: 934px;
+    height: 605px;
+    flex-shrink: 0;
+    border-radius: 68px;
+    background: #FFF;
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+}
+
+.review-card-image {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 312px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.review-card-title {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+.review-card-text {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 39px;
+}
+
+.review-card-autor {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.review-card-city {
+    color: #545454;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+}
+
+.footer-container {
+    color: #7C7C7C;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 39px;
+}
+
+.circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+    background: #D11D65;
+}
+
+.title2 {
+    color: rgb(11, 11, 97);
+}
+
+#tort-second-screen {
+    width: 50vw;
+}
+
+#order {
+    color: #000;
+    background-color: #D11D65;
+    border-radius: 59px;
+    padding-left: 30px;
+	padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+#contact-form {
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 68px;
+    background: #FFF;
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+}
+
+#contactme {
+    color: #000;
+    background-color: #D11D65;
+    border-radius: 59px;
+    padding-left: 30px;
+	padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+#circle-arrow {
+    width: 129px;
+    height: 129px;
+}
+
+#icon-call {
+background-color: #D4D4D4;
+width: 30px;
+height: 30px;
+border-radius: 33px;
+}
+
+#phone {
+    width: 250px;
+    height: 28px;
+    border-radius: 33px;
+    background: #EDEDED;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* все ссылки, по которым пользователь не кликал, будут зелёные */
+a:link {
+    color: green;
+}
+
+/* ссылки, по которым пользователь переходил, сделаем серыми */
+a:visited {
+    color: gray;
+}
+
+/* ссылка, на которую пользователь навёл курсор, сменит цвет на синей */
+a:hover {
+    color: rgb(255, 0, 221);
+}
+
+/* в момент клика ссылка станет красной */
+a:active {
+    color: red;
+}
+
+
